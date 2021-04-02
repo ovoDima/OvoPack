@@ -55,6 +55,7 @@ todoList.addEventListener('click', (e) => {
 // Event show form for add task in todo.
 showForm.addEventListener('click', (e) => {
    e.preventDefault
+   showForm.style.display = 'none'
    
    const timeout = 500
 
